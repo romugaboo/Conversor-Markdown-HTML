@@ -1,4 +1,4 @@
-# Markdown to HTML Converter
+# Conversor de Markdown para HTML
 
 Este projeto é um conversor de Markdown para HTML desenvolvido em Python, utilizando as bibliotecas PLY (Python Lex-Yacc) e BeautifulSoup. O conversor processa um texto em Markdown e o transforma em HTML, salvando o resultado em um arquivo chamado `output.html`.
 
@@ -50,7 +50,11 @@ Saída HTML:
       <li>Item 1</li>
       <li>Item 2</li>
     </ul>
-    <p>Este é um texto com <strong>negrito</strong>, <em>itálico</em>, e <strong><em>negrito e itálico</em></strong>.</p>
+    <p>
+      Este é um texto com <strong>negrito</strong>,
+      <em>itálico</em>, e
+      <strong><em>negrito e itálico</em></strong>.
+    </p>
     <p>Veja mais em <a href="https://www.python.org">Python</a>.</p>
   </body>
 </html>
